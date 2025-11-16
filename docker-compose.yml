@@ -14,7 +14,7 @@ services:
 
   backend:
     image: munnakumar32990/docker-backend:latest
-    container_name: springboot
+    container_name: springboot-practice
     ports:
       - "2025:2000"
     depends_on:
