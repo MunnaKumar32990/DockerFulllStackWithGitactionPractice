@@ -16,7 +16,7 @@ services:
     image: munnakumar32990/docker-backend:latest
     container_name: springboot-practice
     ports:
-      - "2025:2000"
+      - "2024:2000"
     depends_on:
       - mysqldb
     restart: on-failure
